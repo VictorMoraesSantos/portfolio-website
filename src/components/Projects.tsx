@@ -14,8 +14,11 @@ const Projects = () => {
                         whileHover={{ y: -10 }}
                         className="project-card"
                     >
-                        <div className="project-image">
-                            <div className="project-overlay"></div>
+                        <div
+                            className="project-image"
+                            style={project.image ? { backgroundImage: `url(${project.image})`, backgroundSize: 'cover', backgroundPosition: 'center' } : {}}
+                        >
+                            <div className="project-overlay" style={project.image ? { opacity: 0.6, backgroundColor: 'rgba(0,0,0,0.7)' } : {}}></div>
                             <h3 className="project-title">{project.title}</h3>
                         </div>
                         <div className="project-content">

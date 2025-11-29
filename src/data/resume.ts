@@ -1,6 +1,6 @@
 export const resumeData = {
     personalInfo: {
-        name: "Victor Moraes dos Santos",
+        name: "Victor Moraes",
         role: "Desenvolvedor Full-Stack",
         location: "São Vicente, SP",
         phone: "(13) 98107-1403",
@@ -56,21 +56,24 @@ export const resumeData = {
             description: "Sistema de gerenciamento pessoal focado em produtividade e organização.",
             tech: [".NET", "Blazor"],
             github: "https://github.com/VictorMoraesSantos/LifeSync",
-            link: "https://github.com/VictorMoraesSantos/LifeSync"
+            link: "https://github.com/VictorMoraesSantos/LifeSync",
+            image: "/assets/lifesync.png"
         },
         {
             title: "NutriVeda",
             description: "Aplicativo customizado para nutricionistas, permitindo gerenciamento de clientes e métricas de saúde em tempo real.",
             tech: [".NET MAUI", "ASP.NET", "C#"],
             github: "",
-            link: "https://play.google.com/store/apps/details?id=com.niutech.nutriveda&hl=pt_BR"
+            link: "https://play.google.com/store/apps/details?id=com.niutech.nutriveda&hl=pt_BR",
+            image: "/assets/nutriveda.png"
         },
         {
             title: "InfoMarcas",
             description: "Plataforma de avaliações de empresas e serviços, gerando insights de engajamento e experiência do usuário.",
             tech: ["Blazor", ".NET", "SQL Server"],
             github: "",
-            link: "https://infomarcas.com/"
+            link: "https://infomarcas.com/",
+            image: "/assets/infomarcas.png"
         }
     ]
 };
